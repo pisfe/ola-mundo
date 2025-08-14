@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Inicio from "./paginas/inicio";
 import SobreMim from "./paginas/SobreMim";
+import Menu from './componentes/Menu';
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
+    <Menu></Menu>
       <Routes>
         <Route 
           path="/" 
@@ -23,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
