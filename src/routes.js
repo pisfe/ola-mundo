@@ -21,11 +21,11 @@ function AppRoutes() {
             path="/sobremim"
             element={<SobreMim/>}
           />
-          <Route
+        </Route>
+        <Route
             path='posts/:id'
             element={<Post/>}
-          />
-        </Route>
+        />
         <Route
             path="*"
             element={<NaoEncontrada/>}
