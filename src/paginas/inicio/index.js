@@ -1,6 +1,6 @@
 import styles from './inicio.module.css';
 import posts from '../../json/posts.json';
-import Post from 'componentes/Post';
+import Post from 'componentes/PostCard';
 
 export default function Inicio(){
     return(
